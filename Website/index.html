@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<header>
-	<meta charset="UTF-8">
-	<title>Welcome to Fun</title>
-	<script>
-		
-	</script>
-	</header>
-	<body>
-	Welcome to the web<br>
-	You need to fill this out
-	<iframe src="https://bing.com" frameborder="0">
-	</iframe>
-	</body>
-	</html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+
+      ReactDOM.render(
+        <h1>Welcome, now we get to work!</h1>,
+        document.getElementById('root')
+      );
+
+    </script>
+  </body>
+</html>
